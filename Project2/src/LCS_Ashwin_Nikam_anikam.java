@@ -13,7 +13,7 @@ public class LCS_Ashwin_Nikam_anikam {
 	public static void main(String args[]) throws IOException{
 		
 		String sCurrentLine; 
-		BufferedReader br = new BufferedReader(new FileReader("/home/ashwin/P2_5Cases/input0.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("input.txt"));
 		
 		String[] str = new String[2];
 		int num=0;
@@ -119,7 +119,7 @@ public class LCS_Ashwin_Nikam_anikam {
 			System.out.print(S1[z]);
 		}
 		
-		PrintWriter out = new PrintWriter(new FileWriter("/home/ashwin/output.txt"));
+		PrintWriter out = new PrintWriter(new FileWriter("output.txt"));
 		out.println(S1.length);
 		for(int z=0;z<S1.length;z++){
 			out.print(S1[z]);
